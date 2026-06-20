@@ -1,0 +1,22 @@
+ruta GET /reportes me sale:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+como vemos me sale un array que tiene guardao un mensaje en json con, id, tipo y descripcion.
+
+
+
+Ruta POST /reportes me sale:
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 2,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+Al probar la ruta post nos sale un mensaje json con un id, tipo, descripcion, reporte y mensaje
